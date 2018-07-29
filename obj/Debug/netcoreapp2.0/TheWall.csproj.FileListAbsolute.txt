@@ -1,0 +1,11 @@
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/bin/Debug/netcoreapp2.0/TheWall.deps.json
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/bin/Debug/netcoreapp2.0/TheWall.runtimeconfig.json
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/bin/Debug/netcoreapp2.0/TheWall.runtimeconfig.dev.json
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/bin/Debug/netcoreapp2.0/TheWall.dll
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/bin/Debug/netcoreapp2.0/TheWall.pdb
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/obj/Debug/netcoreapp2.0/TheWall.csprojResolveAssemblyReference.cache
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/obj/Debug/netcoreapp2.0/TheWall.csproj.CoreCompileInputs.cache
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/obj/Debug/netcoreapp2.0/TheWall.AssemblyInfoInputs.cache
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/obj/Debug/netcoreapp2.0/TheWall.AssemblyInfo.cs
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/obj/Debug/netcoreapp2.0/TheWall.dll
+/Users/wesleycowan/Desktop/DojoAssignments/netCore2/TheWall/obj/Debug/netcoreapp2.0/TheWall.pdb

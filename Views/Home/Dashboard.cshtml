@@ -1,0 +1,49 @@
+﻿@model MessageViewModel
+<h1>Welcome @ViewBag.currentUser.FirstName</h1>
+
+<form asp-action="AddMessage" asp-controller="Home" method="post">
+    <div class="form-group">
+        <label asp-for="Content"></label><br>
+        <span asp-validation-for="Content"></span>
+        <input asp-for="Content" class="form-control">
+    </div>
+
+    <input value="Post" type="submit">
+    @{
+        if(TempData["MessageEmpty"] != null){
+                <small id="nameHelp" class="error-message form-text text-muted">@TempData["MessageEmpty"]</small>
+        }
+    }
+</form>
+
+
+
+@{
+    foreach(var message in ViewBag.wallMessages)
+    {
+        <h3>@message.User.FirstName @message.User.LastName -- @message.Created_At</h3>
+        <p>@message.Content</p>
+        foreach(var comment in message.Comments)
+        {
+            <h4>@comment.User.FirstName @comment.Created_At</h4>
+            <p>@comment.Content</p>
+        }
+
+        <form action="AddComment/@message.MessageId" method="post">
+            <div class="form-group">
+                <label for="CommentContent"></label><br>
+                <span for="CommentContent"></span>
+                <input for="CommentContent" name="CommentContent" class="form-control">
+            </div>
+            <input value="Add Comment" type="submit">
+                @{
+                    if(TempData["CommentError"] != null){
+                            <small id="nameHelp" class="error-message form-text text-muted">@TempData["CommentError"]</small>
+                    }
+                }
+        </form>
+    }
+}
+
+
+<a href="/logout">Logout</a>
